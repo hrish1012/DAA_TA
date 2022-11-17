@@ -8,9 +8,10 @@
 • Step 2: Accept “n” input from keyboard.
 
 • Step 3: Create a Dqueue with insertion of element alternately from front and rear end. 
-          For example: if elements in array are: [1, 5, 2, 9, 11] etc..
-          If element insertion start with F-R-F-R combination, then values stored will be [1] [1,5], [2,1,5], [2,1,5,9], [11,2,1,5,9]
-          Create the code and demonstrate execution with 03 test cases
+          
+          -For example: if elements in array are: [1, 5, 2, 9, 11] etc..
+          -If element insertion start with F-R-F-R combination, then values stored will be [1] [1,5], [2,1,5], [2,1,5,9], [11,2,1,5,9]
+          
         
 • Step 4: The insertion on Dqueue is carried with certain condition.
                       
