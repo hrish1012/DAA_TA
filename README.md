@@ -20,6 +20,8 @@
          - Condition 3 : If both condition 1 and condition 2 not satisfied, ignore the element and consider new element.
 
 
-• Find out difference between size of Dqueue and size of array. [The difference will be number of elements in array not inserted in the Dqueue].
-• Comment on shape of Dqueue : How the elements present in the Dqueue look like [Ascending/Descending/or …].
+• Find out difference between size of Dqueue and size of array. [The difference will be number of elements in array not inserted in the Dqueue]
+
+• Comment on shape of Dqueue : How the elements present in the Dqueue look like [Ascending/Descending/or …]
+
 • Suggest a suitable mechanism, such that no element of array is ignored and it is inserted in the Dqueue [modify condition 1 and 2]
