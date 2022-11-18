@@ -72,7 +72,10 @@ print("\n\n*******final dqueue*******\n        ", dqueue)
 
 **TEST CASES :**
 
-• TEST CASE 1 : The input array is in ASCENDING order
+• TEST CASE 1 : 
+                     
+       INPUT  : ASCENDING array
+       OUTPUT : The array is decreasing till the first inserted element and then the array is increasing
 
   ![a](https://user-images.githubusercontent.com/113937257/202613187-286ad68f-adc7-4e85-b833-1dea59a2e3b3.png)
 
