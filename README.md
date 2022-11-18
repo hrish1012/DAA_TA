@@ -72,10 +72,13 @@ print("\n\n*******final dqueue*******\n        ", dqueue)
 
 **TEST CASES :**
 TEST CASE 1 : The input array is in ASCENDING order
-![a](https://user-images.githubusercontent.com/113937257/202613187-286ad68f-adc7-4e85-b833-1dea59a2e3b3.png)
+
+    ![a](https://user-images.githubusercontent.com/113937257/202613187-286ad68f-adc7-4e85-b833-1dea59a2e3b3.png)
 
 TEST CASE 2 : The input array is in DESCENDING order
-![b](https://user-images.githubusercontent.com/113937257/202613254-224f1354-98cf-4777-abdf-50ce685b31f8.png)
+
+    ![b](https://user-images.githubusercontent.com/113937257/202613254-224f1354-98cf-4777-abdf-50ce685b31f8.png)
 
 TEST CASE 3 : The input array is  in RANDOM order
-![c](https://user-images.githubusercontent.com/113937257/202613273-4075a0ec-49a9-4d4f-824e-fdbe80061e4e.png)
+
+    ![c](https://user-images.githubusercontent.com/113937257/202613273-4075a0ec-49a9-4d4f-824e-fdbe80061e4e.png)
