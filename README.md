@@ -75,8 +75,10 @@ print("\n\n*******final dqueue*******\n        ", dqueue)
 • TEST CASE 1 : 
                      
     INPUT  : ASCENDING array
-    OUTPUT : - The dqueue is decreasing till the first inserted element and then it is increasing till the end
-             - The difference between size of array and size of dqueue => 5 - 5 = 0 (0 gives the count of ignored elements that are not inserted in the dqueue)
+    OUTPUT : - The dqueue consists all the elements of the input array.
+             - The dqueue is decreasing till the first inserted element and then it is increasing till the end.
+             - The difference between size of array and size of dqueue => 5 - 5 = 0 
+               (0 gives the count of ignored elements that are not inserted in the dqueue)
 
   ![a](https://user-images.githubusercontent.com/113937257/202613187-286ad68f-adc7-4e85-b833-1dea59a2e3b3.png)
 
@@ -85,7 +87,8 @@ print("\n\n*******final dqueue*******\n        ", dqueue)
 
     INPUT  : DESCENDING array
     OUTPUT : - The dqueue only consists of the first inserted element
-             - The difference between size of array and size of dqueue =>  6- 1 = 5 (5 gives the count of ignored elements that aren't inserted in the dqueue)
+             - The difference between size of array and size of dqueue =>  6- 1 = 5 
+               (5 gives the count of ignored elements that aren't inserted in the dqueue)
 
   ![b](https://user-images.githubusercontent.com/113937257/202613254-224f1354-98cf-4777-abdf-50ce685b31f8.png)
 
@@ -94,6 +97,7 @@ print("\n\n*******final dqueue*******\n        ", dqueue)
 
     INPUT  : RANDOM array
     OUTPUT : - The dqueue is decreasing till the first inserted element and then it is increasing till the end
-             - The difference between size of array and size of dqueue =>  6- 4 = 2 (2 gives the count of ignored elements that aren't inserted in the dqueue)
+             - The difference between size of array and size of dqueue =>  6- 4 = 2 
+               (2 gives the count of ignored elements that aren't inserted in the dqueue)
 
   ![c](https://user-images.githubusercontent.com/113937257/202613273-4075a0ec-49a9-4d4f-824e-fdbe80061e4e.png)
