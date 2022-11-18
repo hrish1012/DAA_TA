@@ -74,17 +74,24 @@ print("\n\n*******final dqueue*******\n        ", dqueue)
 
 • TEST CASE 1 : 
                      
-       INPUT  : ASCENDING array
-       OUTPUT : The array is decreasing till the first inserted element and then the array is increasing
+    INPUT  : ASCENDING array
+    OUTPUT : The dqueue is decreasing till the first inserted element and then it is increasing till the end
 
   ![a](https://user-images.githubusercontent.com/113937257/202613187-286ad68f-adc7-4e85-b833-1dea59a2e3b3.png)
 
 
-• TEST CASE 2 : The input array is in DESCENDING order
+• TEST CASE 2 : 
+
+    INPUT  : DESCENDING array
+    OUTPUT : The dqueue only consists of the first inserted element
 
   ![b](https://user-images.githubusercontent.com/113937257/202613254-224f1354-98cf-4777-abdf-50ce685b31f8.png)
 
 
-• TEST CASE 3 : The input array is  in RANDOM order
+• TEST CASE 3 :
+
+
+    INPUT  : RANDOM array
+    OUTPUT : The dqueue is decreasing till the first inserted element and then it is increasing till the end
 
   ![c](https://user-images.githubusercontent.com/113937257/202613273-4075a0ec-49a9-4d4f-824e-fdbe80061e4e.png)
