@@ -107,7 +107,7 @@ print("\n\n*******final dqueue*******\n        ", dqueue)
 
 • Suggest a suitable mechanism, such that no element of array is ignored and it is inserted in the Dqueue.
 
-    -The easiest way to insert all the elements is to use and if-else statement inside a for loop that ensures alternate front-rear-front-rear insertion of elements.
+    -The easiest way to insert all the elements is to use an if-else statement inside a for loop that ensures alternate front-rear-front-rear insertion of elements.
     
     IF STATEMENT : FOR even indices of input array--->for insertion from front end
     => using the function "insert(index,value)" of lists in python which inserts a particular value at the specified index of the list.
