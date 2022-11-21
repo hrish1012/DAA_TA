@@ -99,7 +99,7 @@ print("\n\n*******final dqueue*******\n        ", dqueue)
   
 • Find out difference between size of Dqueue and size of array. 
              
-    -The difference will be number of elements in array not inserted in the Dqueue]
+    -The difference between the size of dqueue and the size of input array is equal to the uninserted elements which are ignored due to the insertion conditions.
 
 • Comment on shape of Dqueue : How the elements present in the Dqueue look like [Ascending/Descending/or …]
     
@@ -107,10 +107,24 @@ print("\n\n*******final dqueue*******\n        ", dqueue)
 
 • Suggest a suitable mechanism, such that no element of array is ignored and it is inserted in the Dqueue.
 
-    -The easiest way to insert all the elements is to use two loops that insures alternate front-rear-front-rear insertion of elements:
-    1.for even indices(insertion from front end)
-    => using the function "insert(index,value)" of lists in python which inserts a particular value at the specified index of the list.
+    -The easiest way to insert all the elements is to use and if-else statement inside a for loop that ensures alternate front-rear-front-rear insertion of elements.
     
-    2.for odd indices(insertion from rear end)
-    =>using the function "append(value)" of lists in python that appends the specified value at the end of the list.
+    IF STATEMENT : FOR even indices of input array--->for insertion from front end
+    => using the function "insert(index,value)" of lists in python which inserts a particular value at the specified index of the list.
+    => insert(0,new_element) =>will insert the element at front position
+                
+    ELSE STATEMENT : FOR odd indices of input array--->for insertion from rear end
+    => using the function "append(value)" of lists in python that appends the specified value at the end of the list.
+    => append(new_element) => will append the element at rear position.
+       
+       
+     EXAMPLE:
+     Input array : [23 45 34 99 10 39 89 52 4]
+                    0  1  2  3  4  5  6  7  8 (indices)
+                    
+     -----index 0 --insertion from front [23]
+     -----index 1 --insertion from rear  [23 45]
+     -----index 2 --insertion from front [23 45 34]
+     -----index 3 --insertion from rear [23 45 34 99]....and so on till the last element of the input array
+     
                 
