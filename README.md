@@ -99,9 +99,18 @@ print("\n\n*******final dqueue*******\n        ", dqueue)
   
 • Find out difference between size of Dqueue and size of array. 
              
-             
-         -The difference will be number of elements in array not inserted in the Dqueue]
+    -The difference will be number of elements in array not inserted in the Dqueue]
 
 • Comment on shape of Dqueue : How the elements present in the Dqueue look like [Ascending/Descending/or …]
+    
+    -The elements present in the dqueue are decreasing till the first inserted element and then increasing till the end of the dqueue.
 
-• Suggest a suitable mechanism, such that no element of array is ignored and it is inserted in the Dqueue [modify condition 1 and 2]
+• Suggest a suitable mechanism, such that no element of array is ignored and it is inserted in the Dqueue.
+
+    -The easiest way to insert all the elements is to use two loops that insures alternate front-rear-front-rear insertion of elements:
+    1.for even indices(insertion from front end)
+    => using the function "insert(index,value)" of lists in python which inserts a particular value at the specified index of the list.
+    
+    2.for odd indices(insertion from rear end)
+    =>using the function "append(value)" of lists in python that appends the specified value at the end of the list.
+                
